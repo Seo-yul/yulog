@@ -1,19 +1,19 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://resourcesaga.github.io/',
+    siteUrl: 'https://resourcesaga.github.io',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://img2.quasarzone.com/editor/2020/07/06/4c1331af7d23a68bd1df70c2b675d1cc.png',
-    logoLink: 'https://resourcesaga.github.io/',
+    logo: 'https://yoon-seo.github.io/images/profile-character/chara-logo.png',
+    logoLink: 'https://resourcesaga.github.io',
     title:
-      '.',
-    githubUrl: '',
+      '<img src="https://yoon-seo.github.io/images/logo/nickname.png" alt="ResourceSaga" />',
+    githubUrl: 'githuburl',
     helpUrl: '',
     tweetText: '',
-    social: '<a href="https://github.com/resourceSaga target="_blank rel="noopener"><img src="https://img2.quasarzone.com/editor/2020/07/06/dc8c9d77e2327c1b4b11d83a08aa4155.png" alt="github" /></a>',	
+    social: '<li><div><a href="https://github.com/resourceSaga" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/github.png" alt="github" /></a></li></div>&nbsp;<div><li><a href="https://github.com/resourceSaga" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/kakao.png" alt="kakao" /></a></li></div>&nbsp;<div><li><a href="mailto:doctorlinux@kakao.com" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/email.png" alt="email" /></a></li></div>',	
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -26,23 +26,23 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/multicampus',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/multicampus', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Reso', link: 'https://resourcesaga.github.io/' }],
+    links: [{ text: 'Reso', link: 'https://resourcesaga.github.io' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://resourcesaga.github.io/'>ResourceSaga </a>",
+      "<a href='https://resourcesaga.github.io/'>Seoyul </a>",
   },
   siteMetadata: {
     title: 'Seoyul Blog | ResourceSaga',
     description: 'An archive of everything I\'ve done. https://resourcesaga.github.io/ ',
     ogImage: null,
-    docsLocation: 'https://resourcesaga.github.io/',
-    favicon: 'https://img2.quasarzone.com/editor/2020/07/06/231b2371eda83502d8e99752d8e07709.png',
+    docsLocation: 'https://github.com/resourceSaga/ResourceSaga.github.io',
+    favicon: 'https://yoon-seo.github.io/images/profile-character/favicon.png',
   },
 };
 

@@ -286,7 +286,7 @@ export const baseStyles = injectGlobal`
   }
 
   .navBarBrand img {
-    width: 120px;
+    width: 80px;
     margin-right: 6px;
     display: inline-block;
   }
@@ -450,7 +450,7 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #007777;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
@@ -470,7 +470,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #007777;
     text-decoration: none;
     display: flex;
     align-items: center;
