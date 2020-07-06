@@ -9,11 +9,31 @@ const config = {
     logo: 'https://yoon-seo.github.io/images/profile-character/chara-logo.png',
     logoLink: 'https://resourcesaga.github.io',
     title:
-      '<img src="https://yoon-seo.github.io/images/logo/nickname.png" alt="ResourceSaga" />',
-    githubUrl: 'githuburl',
+      '<img class="img-responsive" src="https://yoon-seo.github.io/images/logo/nickname.png" alt="ResourceSaga" />',
+    githubUrl: '',
     helpUrl: '',
     tweetText: '',
-    social: '<li><div><a href="https://github.com/resourceSaga" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/github.png" alt="github" /></a></li></div>&nbsp;<div><li><a href="https://github.com/resourceSaga" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/kakao.png" alt="kakao" /></a></li></div>&nbsp;<div><li><a href="mailto:doctorlinux@kakao.com" target="_blank" rel="noopener"><img src="https://yoon-seo.github.io/images/icon/email.png" alt="email" /></a></li></div>',	
+    social: `<li>
+               <a href="https://github.com/resourceSaga" target="_blank" rel="noopener noreferrer">
+		<div>
+                 <img src="https://yoon-seo.github.io/images/icon/github.png" alt="github" />
+		</div>
+               </a>
+             </li>&nbsp;
+	     <li>
+              <a href="mailto:doctorlinux@kakao.com" target="_blank" rel="noopener noreferrer">
+	       <div>
+                <img src="https://yoon-seo.github.io/images/icon/email.png" alt="email" />
+	       </div>              
+	      </a>
+             </li>&nbsp;
+             <li>
+             <a href="https://github.com/resourceSaga" target="_blank" rel="noopener noreferrer">
+              <div>
+               <img src="https://yoon-seo.github.io/images/icon/kakao.png" alt="kakao" />
+              </div>
+             </a>
+             </li>`,	
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -35,7 +55,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://resourcesaga.github.io/'>Seoyul </a>",
+      "<a href='https://resourcesaga.github.io/'>Seoyul</a>",
   },
   siteMetadata: {
     title: 'Seoyul Blog | ResourceSaga',
