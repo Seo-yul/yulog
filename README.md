@@ -1,2 +1,1 @@
-# yulog
-static blog based on Gatsby 
+# ResourceSaga.github.io
