@@ -11,7 +11,7 @@ input_keyboard=""
 case "$1" in
     "dev")
         echo "excute develop mode"
-
+:<<'END'
         if [ ! -d .git-develop ]; then
             mkdir .git-develop
         fi
@@ -21,11 +21,14 @@ case "$1" in
             echo ".git is moved in .git-deploy"
             mv .git-develop/.git .
         fi
-            echo "current repo is $(git config -l | grep remote.origin.url=)"
+END
+        git remote set-url origin $dev_repo
+        echo "current repo is $(git config -l | grep remote.origin.url=)"
         ;;
 
     "dep")
         echo "excute deploy mode"
+:<<'END'
         if [ ! -d .git-deploy  ]; then
             mkdir .git-deploy
         fi
@@ -35,7 +38,9 @@ case "$1" in
             echo ".git is moved in .git-develop"
             mv .git-deploy/.git .
         fi
-            echo "current repo is $(git config -l | grep remote.origin.url=)"
+END
+        git remote set-url origin $dep_repo
+        echo "current repo is $(git config -l | grep remote.origin.url=)"
         ;;
 
     *)
