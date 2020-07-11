@@ -11,36 +11,18 @@ input_keyboard=""
 case "$1" in
     "dev")
         echo "excute develop mode"
-:<<'END'
-        if [ ! -d .git-develop ]; then
-            mkdir .git-develop
-        fi
 
-        if [ $current_repo == $dep_repo ]; then
-            mv .git .git-deploy/.
-            echo ".git is moved in .git-deploy"
-            mv .git-develop/.git .
-        fi
-END
         git remote set-url origin $dev_repo
         echo "current repo is $(git config -l | grep remote.origin.url=)"
         ;;
 
     "dep")
         echo "excute deploy mode"
-:<<'END'
-        if [ ! -d .git-deploy  ]; then
-            mkdir .git-deploy
-        fi
 
-        if [ $current_repo == $dev_repo ]; then
-            mv .git .git-develop/.
-            echo ".git is moved in .git-develop"
-            mv .git-deploy/.git .
-        fi
-END
         git remote set-url origin $dep_repo
         echo "current repo is $(git config -l | grep remote.origin.url=)"
+        npm run deploy
+        echo "npm run deploy end"
         ;;
 
     *)
