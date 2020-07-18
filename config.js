@@ -47,9 +47,11 @@ const config = {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
       '/multicampus',
+      '/KBI-Financial-DT-Test',
     ],
     collapsedNav: [
       '/multicampus', // add trailing slash if enabled above
+      '/KBI-Financial-DT-Test',
     ],
     links: [{ text: 'Reso', link: 'https://resourcesaga.github.io' }],
     frontline: false,
