@@ -15,6 +15,8 @@ case "$1" in
         git remote set-url origin $dev_repo
         echo "current repo is $(git config -l | grep remote.origin.url=)"
         sed -i 's/YULOG_MODE=dep/YULOG_MODE=dev/g' ~/.bash_profile
+        echo "#########################"
+        echo "current mode is dev"
         ;;
 
     "dep")
@@ -25,11 +27,13 @@ case "$1" in
         sed -i 's/YULOG_MODE=dev/YULOG_MODE=dep/g' ~/.bash_profile
         npm run deploy
         echo "npm run deploy end"
+        echo "##########################"
+        echo "current mode is dep"
         ;;
 
     "stat")
         echo "current mode is ${current_mode}"
-        echo "current remote is $(git config -l | grep remote.origin.url=)"
+        echo "current remote is ${current_repo}"
         ;;
 
     "init")
@@ -63,7 +67,7 @@ case "$1" in
         ;;
 
     *)
-        echo $1 "Requires one parameter to operate"
+        echo "[$0] Requires one parameter to operate"
         echo "init : Must be operated once before all operations"
         echo "stat : Prints the current state on the console"
         echo "dev : Switch to dev mode"
