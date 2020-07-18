@@ -27,7 +27,12 @@ case "$1" in
         echo "npm run deploy end"
         ;;
 
-    *)
+    "stat")
+        echo "current mode is ${current_mode}"
+        echo "current remote is $(git config -l | grep remote.origin.url=)"
+        ;;
+
+    "init")
         echo "yulog init start!"
         function init_yulog()
         {
@@ -55,6 +60,14 @@ case "$1" in
             echo "YULOG_MODE is exist already"
             echo "YULOG_MODE=$current_mode"
         fi
+        ;;
+
+    *)
+        echo $1 "Requires one parameter to operate"
+        echo "init : Must be operated once before all operations"
+        echo "stat : Prints the current state on the console"
+        echo "dev : Switch to dev mode"
+        echo "dep : Switch to dep mode"
         ;;
 esac
 
