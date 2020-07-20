@@ -28,7 +28,7 @@ const config = {
 	      </a>
              </li>&nbsp;
              <li>
-             <a href="https://github.com/resourceSaga" target="_blank" rel="noopener noreferrer">
+             <a href="https://open.kakao.com/o/s4FP6hmc" target="_blank" rel="noopener noreferrer">
               <div>
                <img src="https://yoon-seo.github.io/images/icon/kakao.png" alt="kakao" />
               </div>
