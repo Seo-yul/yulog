@@ -46,14 +46,16 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/multicampus',
+      '/Portfolio',
+      '/Portfolio/Academy-Point',
+      '/Portfolio/Bongja-Bob',
       '/KBI-Financial-DT-Test',
     ],
     collapsedNav: [
-      '/multicampus', // add trailing slash if enabled above
+      '/Portfolio', // add trailing slash if enabled above
       '/KBI-Financial-DT-Test',
     ],
-    links: [{ text: 'Reso', link: 'https://resourcesaga.github.io' }],
+    links: [{ text: 'Blog', link: 'https://yulsay.tistory.com' }],
     frontline: false,
     ignoreIndex: true,
     title:

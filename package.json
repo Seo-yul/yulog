@@ -3,7 +3,7 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "author": "ResourceSaga <doctorlinux@kakao.com>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.10.4",
     "@emotion/core": "^10.0.28",
