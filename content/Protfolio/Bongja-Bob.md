@@ -11,7 +11,7 @@ Spring Framework
 
 - 챗봇 메신저를 이용한 원격 사료 배급기
 
-![Bongja-Bob%20339219e8b5614438a1334be195823619/2.png](./Bongja-Bob/2.png)
+![Bongja-Bob%20339219e8b5614438a1334be195823619/2.jpg](./Bongja-Bob/2.jpg)
 
 ## 개발환경
 
@@ -27,15 +27,15 @@ Spring Framework
 
 AWS IoT, AWS Lambda, AWS Gateway 사용 서버리스 구동
 
-![Bongja-Bob%20339219e8b5614438a1334be195823619/3.png](./Bongja-Bob/3.png)
+![Bongja-Bob%20339219e8b5614438a1334be195823619/3.jpg](./Bongja-Bob/3.jpg)
 
 ## 구현 기능
 
-![Bongja-Bob%20339219e8b5614438a1334be195823619/14.png](./Bongja-Bob/14.png)
+![Bongja-Bob%20339219e8b5614438a1334be195823619/14.jpg](./Bongja-Bob/14.jpg)
 
 ### MQTT protocol Listening
 
-![Bongja-Bob%20339219e8b5614438a1334be195823619/4.png](./Bongja-Bob/4.png)
+![Bongja-Bob%20339219e8b5614438a1334be195823619/4.jpg](./Bongja-Bob/4.jpg)
 
 - 라즈베리파이는 MQTT 프로토콜을 이용해 항상 메시지 수신대기 상태입니다.
 AWS IoT는 인터넷에 연결된 모듈의 AWS Lambda와 상호작용을 중계하며, 메시지가 도착한 경우 알맞은 함수를 실행시킵니다.
@@ -44,7 +44,7 @@ AWS IoT는 인터넷에 연결된 모듈의 AWS Lambda와 상호작용을 중계
 
 ### DC Mortor Control
 
-![Bongja-Bob%20339219e8b5614438a1334be195823619/5.png](./Bongja-Bob/5.png)
+![Bongja-Bob%20339219e8b5614438a1334be195823619/5.jpg](./Bongja-Bob/5.jpg)
 
 - i2c 인터페이스를 이용하여 DC모터와 시계를 제어합니다. 수신된 명령어에 따라 DC Mortor를 실시간 제어 또는 프로그램 시간 예약 함수를 작동하여, 시간에 따라 모듈의 모터를 작동합니다.
 - i2c interface, C++, python

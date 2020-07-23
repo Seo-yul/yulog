@@ -3,7 +3,7 @@ title: "Academy-Point"
 metaTitle: "Academy-Point"
 metaDescription: "Protfolio"
 ---
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/6.png](./Academy-Point/6.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/6.jpg](./Academy-Point/6.jpg)
 
 # 학습도움웹 - 개인 프로젝트
 
@@ -16,7 +16,7 @@ Spring Framework
 - 사전
 - 번역
 
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/7.png](./Academy-Point/7.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/7.jpg](./Academy-Point/7.jpg)
 
 ## 개발환경
 
@@ -29,13 +29,13 @@ Spring Framework
 
 ## 블루프린트
 
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/8.png](./Academy-Point/8.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/8.jpg](./Academy-Point/8.jpg)
 
 ## 기능 설명
 
 ### 로그인, 출석체크
 
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/9.png](./Academy-Point/9.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/9.jpg](./Academy-Point/9.jpg)
 
 - 카카오 API를 이용해 계정 로그인을 한 후 사용자 인증을 합니다. 로그인한 사용자의 정보를 파싱 받아 DB에 저장하고, 회원정보 관리에 이용합니다.
 사용자는 출석하기 위해 기기를 등록하고, 이후 IP비교를 통해 출석체크를 하게 됩니다. 관리자는 모든 회원의 출석정보를 볼 수 있으며, 내용 변경 또한 가능합니다.
@@ -43,14 +43,14 @@ Spring Framework
 
 ### 스케줄 알림, 캘린더, 실시간 시간
 
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/10.png](./Academy-Point/10.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/10.jpg](./Academy-Point/10.jpg)
 
 - 실시간 시간을 제공해주며, 날짜에 따른 일주일, 한달의 일정을 알려줍니다. 관리자에게만 접근이 허용된 Manage 메뉴를 통해 일정을 관리합니다.
 - Ajax, URI interceptor, Session
 
 ### 한자사전, 번역기
 
-![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/11.png](./Academy-Point/11.png)
+![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/11.jpg](./Academy-Point/11.jpg)
 
 - 한자 사전과 번역 기능을 이용하기 위해서는 로그인해야만 사용 할 수 있습니다. 한자 검색 시 네이버 사전과 웹 크롤링을 이용해 해당 한자의 데이터를 제공합니다. 이때, 네이버 Papago SMT를 이용해 번역하며. 인코딩 변환으로 한자를 파싱 하였습니다.
 - URLEncoder, regex, jsoup, JSON, Naver Open API

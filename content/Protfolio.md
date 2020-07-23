@@ -8,14 +8,16 @@ metaDescription: "Protfolio"
 - 최근에는  Cloud computing 관련 기술에 관심을 가지고 있습니다.
 
 # Protfolio
-## Academy-Point
+## 학습 지원 웹 페이지
+**[Academy-Point &#10159;](./Protfolio/Academy-Point)**
 - Java Spring framework
 - open API
 - crawling
 - Oauth 2.0
 - mysql
 
-## Bongja-Bob
+## 원격 조종 급여기
+**[Bongja-Bob &#10159;](./Protfolio/Bongja-Bob)**
 - Python
 - AWS Gateway
 - AWS IoT
