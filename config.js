@@ -45,13 +45,14 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
+      '/resourcesaga', // add trailing slash if enabled above
       '/Portfolio',
       '/Portfolio/Academy-Point',
       '/Portfolio/Bongja-Bob',
       '/KBI-Financial-DT-Test',
     ],
     collapsedNav: [
+      '/resourcesaga',
       '/Portfolio', // add trailing slash if enabled above
       '/KBI-Financial-DT-Test',
     ],
