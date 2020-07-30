@@ -1,7 +1,7 @@
 ---
 title: "Bongja-Bob"
 metaTitle: "Bongja-Bob"
-metaDescription: "Protfolio"
+metaDescription: "Bongja-Bob / Portfolio"
 ---
 # 원격 사료 배급기- 팀 프로젝트
 

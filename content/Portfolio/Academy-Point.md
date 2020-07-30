@@ -1,7 +1,7 @@
 ---
 title: "Academy-Point"
 metaTitle: "Academy-Point"
-metaDescription: "Protfolio"
+metaDescription: "Academy-Point/Portfolio"
 ---
 ![Academy-Point%2032393cd075ab4ef2b393b5ef7ba443df/6.jpg](./Academy-Point/6.jpg)
 
