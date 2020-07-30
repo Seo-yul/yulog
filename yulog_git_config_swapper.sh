@@ -67,6 +67,7 @@ case "$1" in
         ;;
 
     *)
+        echo " "
         echo "[$0] Requires one parameter to operate"
         echo "init : Must be operated once before all operations"
         echo "stat : Prints the current state on the console"

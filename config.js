@@ -44,17 +44,15 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      '/resourcesaga', // add trailing slash if enabled above
-      '/Portfolio',
-      '/Portfolio/Academy-Point',
-      '/Portfolio/Bongja-Bob',
-      '/KBI-Financial-DT-Test',
-    ],
-    collapsedNav: [
+    forcedNavOrder: [// add trailing slash if enabled above
       '/resourcesaga',
-      '/Portfolio', // add trailing slash if enabled above
       '/KBI-Financial-DT-Test',
+      '/Nodejs',
+      '/Portfolio',      
+    ],
+    collapsedNav: [// add trailing slash if enabled above      
+      '/KBI-Financial-DT-Test',
+      '/Nodejs',      
     ],
     links: [{ text: 'Blog', link: 'https://yulsay.tistory.com' }],
     frontline: false,
