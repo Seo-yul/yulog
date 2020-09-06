@@ -66,7 +66,7 @@ IBM, intel ...
 
 ## 동기식
 
-```jsx
+```
 var fs = require('fs');
 var content = fs.readFileSyng("readme.txt", "utf8");
 console.log(content);
@@ -75,7 +75,7 @@ console.log('Reading file...');
 
 ## 비동기식
 
-```jsx
+```
 var fs = require('fs');
 fs.readFile("readme.txt", "utf8", function(err, content){
 	console.log(content);
@@ -88,7 +88,7 @@ console.log('Reading file...');
 
 ### 동기식 함수 구현과 사용
 
-```jsx
+```
 // 동기식 함수 구현
 function add(i, j){
 	return i + j;
@@ -100,7 +100,7 @@ console.log('Resoult:', result);
 
 ### 비동기식 함수 구현과 사용
 
-```jsx
+```
 // 비동기식 함수 구현
 function add(i, j, callback){
 	var result = i + j;
@@ -117,7 +117,7 @@ add(1, 2, function(result){
 
 ### 콜백을 이용한 파일 읽기
 
-```jsx
+```
 fs.readFile('textFile.txt','utf8',function(err,text){
 	console.log('Read File Async', text);
 });
@@ -131,7 +131,7 @@ fs.readFile('textFile.txt','utf8',function(err,text){
 
 ### 대부분의 비동기 API
 
-```jsx
+```
 callbackFunc(arg1, arg2, function(error, result){
 	if(error){
 // 에러 처리
@@ -192,7 +192,7 @@ callbackFunc(arg1, arg2, function(error, result){
 
 ### 모듈 로딩과 객체 생성
 
-```jsx
+```
 var readline = require('readline');
 var rl = readline.createInterface();
 ```
@@ -201,7 +201,7 @@ var rl = readline.createInterface();
 
 ### 객체 생성 함수 옵션
 
-```jsx
+```
 var rl = readline.createInterface({
 	input : process.stdin,
 	output : process.stdout
@@ -215,7 +215,7 @@ readline.createInterface(options)
 
 ### 모듈 로딩, 객체 생성 후 메소드 사용
 
-```jsx
+```
 var readlince = require('readline');
 var rl = readline.createInterface();
 rl.setPrompt('>>');
@@ -225,7 +225,7 @@ rl.setPrompt('>>');
 
 ### 이벤트 - 이벤트 핸들러
 
-```jsx
+```
 .on([이벤트 이름], [리스너 함수])
 
 rl.on('line', function (cmd) {
@@ -241,7 +241,7 @@ rl.on('line', function (cmd) {
 
 ### 객체 생성 없이 모듈에 직접 사용
 
-```jsx
+```
 // 모듈 객체에 바로 함수를 사용하듯 이용
 var readline = require('readline');
 readline.cursorTo(process.stdout, 60, 30);

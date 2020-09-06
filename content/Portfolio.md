@@ -11,6 +11,7 @@ metaDescription: "Portfolio"
 ## 학습 지원 웹 페이지
 **[Academy-Point &#10159;](./Portfolio/Academy-Point)**
 - Java Spring framework
+- Apache tomcat
 - open API
 - crawling
 - Oauth 2.0
@@ -28,8 +29,13 @@ metaDescription: "Portfolio"
 ## 사진 검색, 분석 웹 페이지
 **[ICT-MD &#10159;](./Portfolio/ICT-MD)**
 - Java Spring framework
+- Apache Tomcat
 - Mysql
 - Flickr API
 - Google Cloud Vision
 
-
+## 코로나 전국 종합 현황 및 상세 정보 시각화 웹 페이지
+- Django
+- MongoDB
+- Open API
+- Nginx
