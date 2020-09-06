@@ -35,7 +35,8 @@ metaDescription: "Portfolio"
 - Google Cloud Vision
 
 ## 코로나 전국 종합 현황 및 상세 정보 시각화 웹 페이지
+**[CORONAIS &#10159;](./Portfolio/CORONAIS)**
 - Django
 - MongoDB
-- Open API
-- Nginx
+- open API
+- crawling
