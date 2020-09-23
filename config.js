@@ -1,10 +1,3 @@
-import GITHUBImage from './images/github.png';
-import EMAILImage from './images/email.png';
-import CHARALOGOImage from './images/chara-logo.png';
-import FAVICONImage from './images/favicon.png';
-import KAKAOImage from './images/kakao.png';
-import NICKNAMEImage from './images/nickname.png';
-
 const config = {
   gatsby: {
     pathPrefix: '/',
@@ -13,31 +6,31 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: '${CHARALOGOImage}',
+    logo: 'https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/chara-logo.png',
     logoLink: 'https://resourcesaga.github.io',
     title:
-      '<img class="img-responsive" src="${NICKNAMEImage}" alt="ResourceSaga" />',
+      '<img class="img-responsive" src="https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/nickname.png" alt="ResourceSaga" />',
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
     social: `<li>
                <a href="https://github.com/resourceSaga" target="_blank" rel="noopener noreferrer">
 		<div>
-                 <img src="${GITHUBImage}" alt="github" />
+                 <img src="https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/github.png" alt="github" />
 		</div>
                </a>
              </li>&nbsp;
 	     <li>
               <a href="mailto:doctorlinux@kakao.com" target="_blank" rel="noopener noreferrer">
 	       <div>
-                <img src="${EMAILImage}" alt="email" />
+                <img src="https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/email.png" alt="email" />
 	       </div>              
 	      </a>
              </li>&nbsp;
              <li>
              <a href="https://open.kakao.com/o/s4FP6hmc" target="_blank" rel="noopener noreferrer">
               <div>
-               <img src="${KAKAOImage}" alt="kakao" />
+               <img src="https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/kakao.png" alt="kakao" />
               </div>
              </a>
              </li>`,	
@@ -72,8 +65,7 @@ const config = {
     description: 'An archive of everything I\'ve done. https://resourcesaga.github.io/ ',
     ogImage: null,
     docsLocation: 'https://github.com/resourceSaga/ResourceSaga.github.io',
-    favicon: '{FAVICONImage}',
+    favicon: 'https://raw.githubusercontent.com/resourceSaga/yulog/master/src/components/images/favicon.png',
   },
 };
-
 module.exports = config;
