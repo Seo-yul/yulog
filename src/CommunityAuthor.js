@@ -1,4 +1,6 @@
 import React from 'react';
+import GITHUBImage from './images/github.png';
+import EMAILImage from './images/email.png';
 
 const CommunityAuthor = ({ name, imageUrl, githubUrl, description }) => {
   return (
@@ -14,7 +16,7 @@ const CommunityAuthor = ({ name, imageUrl, githubUrl, description }) => {
             {githubUrl ? (
               <a href={githubUrl} target="_blank" rel="noopener noreferrer">
                 <img
-                  src="https://yoon-seo.github.io/images/icon/github.png"
+                  src="${GITHUBImage}"
                   alt="Github Icon"
                   aria-label="Github"
                 />
@@ -22,7 +24,7 @@ const CommunityAuthor = ({ name, imageUrl, githubUrl, description }) => {
             ) : null}
 	        <a href="mailto:doctorlinux@kakao.com" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="https://yoon-seo.github.io/images/icon/email.png"
+                  src="${EMAILImage}"
                   alt="Mail Icon"
                   aria-label="Mail"
                 />

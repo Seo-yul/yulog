@@ -3,6 +3,10 @@ title: "Bongja-Bob"
 metaTitle: "Bongja-Bob"
 metaDescription: "Bongja-Bob / Portfolio"
 ---
+# Bongja-Bob
+
+![Bongja-Bob%20339219e8b5614438a1334be195823619/14.jpg](./Bongja-Bob/14.jpg)
+
 # 원격 사료 배급기- 팀 프로젝트
 
 Spring Framework
@@ -30,8 +34,6 @@ AWS IoT, AWS Lambda, AWS Gateway 사용 서버리스 구동
 ![Bongja-Bob%20339219e8b5614438a1334be195823619/3.jpg](./Bongja-Bob/3.jpg)
 
 ## 구현 기능
-
-![Bongja-Bob%20339219e8b5614438a1334be195823619/14.jpg](./Bongja-Bob/14.jpg)
 
 ### MQTT protocol Listening
 
