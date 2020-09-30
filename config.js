@@ -47,12 +47,15 @@ const config = {
     forcedNavOrder: [// add trailing slash if enabled above
       '/resourcesaga',
       '/KBI-Financial-DT-Test',
+	'/basic',
+      '/expert',
       '/Nodejs',
-      '/Portfolio',      
     ],
     collapsedNav: [// add trailing slash if enabled above      
-      '/KBI-Financial-DT-Test',
-      '/Nodejs',      
+      '/KBI-Financial-DT-Test', 
+	'/basic',
+      '/expert',
+	'/Nodejs',
     ],
     links: [{ text: 'Blog', link: 'https://yulsay.tistory.com' }],
     frontline: false,
