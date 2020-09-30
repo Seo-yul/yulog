@@ -16,7 +16,7 @@
 
 **ThreadPoolExecutor: GIL 종속**
 
-## Python GIL (Global Interpreter Lock)
+## Python Global Interpreter Lock
 
 GIL 은 한 번에 하나의 스레드만 수행 할 수 있게 인터프리터 자체에서 락을 거는 것.
 

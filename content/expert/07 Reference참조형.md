@@ -2,7 +2,7 @@
 
 파이썬은 콜바이오브젝트 형식을 따르지만 다른 언어와 같이 참조형의 특징을 가지는 경우가 있다.
 
-## __eq__와 id 비교의 경우
+## eq와 id 비교의 경우
 
 ```python
 x = {'name':'kim', 'age':20}
@@ -31,7 +31,7 @@ print(tuple1 == tuple2)       # True
 print(tuple1.__eq__(tuple2))  # True
 ```
 
-## Copy, Deepcopy (얕은 복사, 깊은 복사)
+## Copy 얕은 복사, Deepcopy 깊은 복사
 
 파이썬에서 변수의 객체 할당은 링크를 통한 얕은 복사를 의미한다.
 

@@ -46,6 +46,7 @@ const config = {
   sidebar: {
     forcedNavOrder: [// add trailing slash if enabled above
       '/resourcesaga',
+	'/Portfolio',
       '/KBI-Financial-DT-Test',
 	'/basic',
       '/expert',

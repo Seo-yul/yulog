@@ -63,7 +63,7 @@ c.executemany("INSERT INTO users(id, username, email, phone, website, regdate) V
 print("users db deleted : ", conn.execute("delete from users").rowcount, "rows")
 ```
 
-## 커밋 - isolation_level=None 일 경우 자동 반영(Auto Commit)
+## 커밋 - isolation_level=None 일 경우 자동 반영 Auto Commit
 
 ```python
 conn.commit()

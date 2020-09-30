@@ -1,4 +1,4 @@
-# 6. 함수 및 람다(lambda)
+# 6. 함수 및 람다 lambda
 
 ## 람다
 
@@ -71,7 +71,7 @@ def kwargs_func(**kwargs):
 kwargs_func(name1='kim', name2='park', name3='lee')
 ```
 
-## 중첩함수(클로저)
+## 중첩함수 클로저
 
 함수안에 함수가 있는 상태
 
